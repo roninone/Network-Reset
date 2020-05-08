@@ -1,6 +1,6 @@
 # Network-Reset
 
-Reconfigures the network interface for Kali Linux on VirtualBox and VMware.
+This simple Bash script reconfigures the network interface for Kali Linux on VirtualBox and VMware. It first restarts the network-manager service and then runs dhclient to reconfigure the network interface. ifconfig is then run so the user can verify the reset was successful and gather network information.
 
 # Set Up
 ### Install using Git
